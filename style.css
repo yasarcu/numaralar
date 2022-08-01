@@ -1,0 +1,24 @@
+button, #on {
+    width: 28%;
+    font-size: 4em;
+    /* font-style: italic; */
+    float: left;
+    margin: 7px;
+    background-color: #000;
+    color: #ffe400;
+    border-radius: 15px;
+}
+
+#kos {
+    width: 28%;
+    font-size: 1em;
+    float: left;
+    margin: 7px;
+    background-color: #000;
+    color: #ffe400;
+    border-radius: 15px;
+}
+
+body {
+    background-color: #000;
+}
