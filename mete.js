@@ -7,6 +7,10 @@ window.onload = function () {
 }
 
 function play(deger, _deger) {
+    let isim = document.getElementById("metefe").textContent;
+    if (isim == "Mete") {
+        deger = deger + "Mete";
+    }
     var audio = document.getElementById(deger);
     // ikinci defer buttona tiklaninca tekrar eski rengine donsun hatasina bak
     var sayiBack = _deger.style.backgroundColor;
@@ -22,10 +26,21 @@ function play(deger, _deger) {
     audio.play();
 }
 function isimler() {
-    if(document.getElementById("metefe").textContent = "Efe") 
+    let isim = document.getElementById("metefe").textContent;
+    if(isim == "Efe") {
         document.getElementById('metefe').textContent = "Mete";
-    // if(document.getElementById("metefe").textContent = "Mete")
+
+    } else {
+    document.getElementById('metefe').textContent = "Efe";
+}
+}
+ 
+// if(document.getElementById("metefe").textContent = "Mete")
 
     // else {
     //     document.getElementById("metefe").textContent = "Efe";
-    }
+// if (condition) {
+    
+// } else {
+    
+// }
