@@ -2,8 +2,8 @@
 window.onload = function () {
     let genislik = document.getElementById('omnom').offsetWidth;
     let uzunluk = document.getElementById('omnom').offsetHeight;
-    document.getElementById('kos').style.width = genislik + 'px';
-    document.getElementById('kos').style.height = uzunluk + 'px';
+    document.getElementById('metefe').style.width = genislik + 'px';
+    document.getElementById('metefe').style.height = uzunluk + 'px';
 }
 
 function play(deger, _deger) {
